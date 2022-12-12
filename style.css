@@ -1,0 +1,55 @@
+ #header nav  {
+    background-attachment: fixed;
+ }
+.dark-grd {
+    height: 400px;
+    background-color: linear-gradient(rgba(0,0,0, .9),rgba(0,0,0, .9));
+    background-image: url("../bootstrap/img/istockphoto-1155000194-170667a.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-image: linear-gradient(rgba(0,0,0, .9),rgba(0,0,0, .9)); */
+    opacity: .5;
+    height: 100%;
+}
+
+section#disagning.disagning-item img {
+    min-height: 100%;
+    width: 100%;
+
+}
+section#disagning button {
+    max-height: 250px;
+    padding: 0;
+    overflow: hidden;
+}
+section#disagning .disagning-item {
+    position: relative;
+}
+section#disagning .disagning-item:hover .overlay {
+       opacity: 1;
+       background: rgba(189,61,75, .9);
+
+}
+section#disagning .disagning-item:hover  i{
+    opacity: 1;
+    transform: none;
+}
+section#disagning .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(189,61,75, 1);
+    opacity: .5;
+    color: #fff;
+    transition: all .5s;
+}
+section#disagning .overlay i {
+    transform: translateY(50px);
+    transition: all .5s;
+    opacity: 0;
+}
+
